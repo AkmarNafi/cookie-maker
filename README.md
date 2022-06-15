@@ -1,5 +1,9 @@
 # cookie
 
+## Requrements
+
+Needs node 14 or up
+
 ## Project setup
 ```
 npm install
