@@ -3,7 +3,7 @@
     <h1 class="mb-2">Cook a Cookie</h1>
     <button @click="cookACookie">Cook Cookie</button>
 
-    <h1 class="mb-2">Your cookies</h1>
+    <h1 class="mb-2 mt-6">Your cookies</h1>
     <span v-for="(cookie, index) in cookies" :key="index" class="cookies">
       {{ cookie }}
     </span>
