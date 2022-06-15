@@ -1,5 +1,7 @@
 # cookie
 
+## Preview
+   [https://akmars-cookie-maker.web.app/](Preview app)
 ## Requrements
 
 Needs node 14 or up
