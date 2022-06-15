@@ -3,14 +3,12 @@
     <h1 class="mb-2">Cook a Cookie</h1>
     <button @click="cookACookie">Cook Cookie</button>
 
-    <hr>
-
     <h1 class="mb-2">Your cookies</h1>
     <span v-for="(cookie, index) in cookies" :key="index" class="cookies">
       {{ cookie }}
     </span>
 
-		<div v-if="noCookie">You dont have any cookies yet, Start cookin 🍪 </div>
+    <div v-if="noCookie">You don't have any cookies yet, Start cookin 🍪</div>
   </div>
 </template>
 
@@ -38,10 +36,10 @@ export default {
     },
   },
   computed: {
-		noCookie(){
-			return this.cookies.length === 0
-		}
-	},
+    noCookie() {
+      return this.cookies.length === 0;
+    },
+  },
 };
 </script>
 
