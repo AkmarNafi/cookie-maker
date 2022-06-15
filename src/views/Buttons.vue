@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <div>
-      <label> Normal Button: <custom-button>Cookie</custom-button></label>
+      <label> Normal Button: <custom-button>Cookie</custom-button> </label>
     </div>
 
     <div class="mt-3">
       <label>
-        Disabled Button: <custom-button disabled>Cookie disabled</custom-button></label
-      >
+        Disabled Button: <custom-button disabled>Cookie disabled</custom-button>
+      </label>
     </div>
   </div>
 </template>
