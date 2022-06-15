@@ -1,8 +1,7 @@
 <template>
   <div class="container">
     <h1 class="mb-2">Cook a Cookie</h1>
-    <button @click="cookACookie">Cook Cookie</button>
-
+    <custom-button @clicked="cookACookie">Cook Cookie</custom-button>
     <h1 class="mb-2 mt-6">Your cookies</h1>
     <span v-for="(cookie, index) in cookies" :key="index" class="cookies">
       {{ cookie }}
@@ -14,11 +13,15 @@
 
 <script>
 import { cookCookie } from "../services/cookieCookingService";
+import CustomButton from "../components/CustomButton.vue";
 export default {
   data() {
     return {
       cookies: [],
     };
+  },
+  components: {
+    CustomButton,
   },
   methods: {
     async cookACookie() {
